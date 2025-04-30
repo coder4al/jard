@@ -1,0 +1,27 @@
+{
+  "name": "jard",
+  "version": "1.0.0",
+  "description": "Adaptive Web Security Framework combining RBAC, API Gateway Security, JWT, BBD, and Dynamic Encryption",
+  "main": "index.js",
+  "keywords": ["security", "RBAC", "JWT", "encryption", "API gateway", "behavioral detection"],
+  "author": "coder4al",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder4al/jard.git"
+  },
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express-rate-limit": "^7.5.0",
+    "express-useragent": "^1.0.15",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "rbac": "^5.0.3"
+  }
+}
