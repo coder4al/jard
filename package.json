@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Adaptive Web Security Framework combining RBAC, API Gateway Security, JWT, BBD, and Dynamic Encryption",
   "main": "index.js",
-  "keywords": ["security", "RBAC", "JWT", "encryption", "API gateway", "behavioral detection"],
+  "keywords": [
+    "security",
+    "RBAC",
+    "JWT",
+    "encryption",
+    "API gateway",
+    "behavioral detection"
+  ],
   "author": "coder4al",
   "license": "ISC",
   "scripts": {
@@ -15,6 +22,7 @@
   },
   "dependencies": {
     "accesscontrol": "^2.2.1",
+    "argon2": "^0.43.0",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
