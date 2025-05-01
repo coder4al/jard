@@ -1,6 +1,6 @@
 {
   "name": "jard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adaptive Web Security Framework combining RBAC, API Gateway Security, JWT, BBD, and Dynamic Encryption",
   "main": "index.js",
   "keywords": [
