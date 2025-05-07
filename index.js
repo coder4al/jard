@@ -8,6 +8,13 @@ const useragent = require("express-useragent");
 const cryptoJS = require("crypto-js");
 const bcrypt = require("bcryptjs");
 const argon2 = require("argon2");
+const cloudinary = require("cloudinary")
+const dotenv = require("dotenv")
+const express = require("express")
+const mongoose = require("mongoose")
+const multer = require("multer")
+const nodemon = require("nodemon")
+const validator = require("validator")
 
 module.exports = {
   AccessControl,
@@ -20,4 +27,11 @@ module.exports = {
   cryptoJS,
   bcrypt,
   argon2,
+  cloudinary,
+  dotenv,
+  express,
+  mongoose,
+  multer,
+  nodemon,
+  validator
 };
